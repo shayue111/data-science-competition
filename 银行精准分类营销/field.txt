@@ -1,0 +1,18 @@
+ID Int 客户唯一标识
+age Int 客户年龄 -- 连续值
+job String 客户的职业                OK!!!
+marital String 婚姻状况              OK!!!
+education String 受教育水平          OK!!!
+default String 是否有违约记录         OK!!!
+balance Int 每年账户的平均余额 -- 连续值
+housing String 是否有住房贷款         OK!!!
+loan String 是否有个人贷款            OK!!!
+contact String 与客户联系的沟通方式    OK!!!
+day Int 最后一次联系的时间（几号
+month String 最后一次联系的时间（月份） OK!!!
+duration Int 最后一次联系的交流时长 -- 连续值
+campaign Int 在本次活动中，与该客户交流过的次数 -- 连续值
+pdays Int 距离上次活动最后一次联系该客户，过去了多久（999表示没有联系过）
+previous Int 在本次活动之前，与该客户交流过的次数 -- 连续值
+poutcome String 上一次活动的结果       OK!!!
+y Int 预测客户是否会订购定期存款业务
